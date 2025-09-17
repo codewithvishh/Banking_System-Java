@@ -1,13 +1,13 @@
 # 🏦 Banking System Application
 
-A full-stack Java-based banking system built using Spring Boot and Spring Security. This project simulates core banking operations such as user registration, authentication, account management, and transaction history — with role-based access for Admin, Manager, and Customer.
+A full-stack Java-based banking system built using Spring Boot and Spring Security. This project simulates core banking operations such as user registration, authentication, account management, and transaction history — with role-based access for Admin, Manager, and User.
 
 ---
 
 ## 🚀 Features
 
-- ✅ Customer registration before login
-- 🔐 Role-based login for Admin, Manager, and Customer
+- ✅ User registration before login
+- 🔐 Role-based login for Admin, Manager, and User
 - 💳 Deposit, withdrawal, and balance check
 - 📜 Transaction history viewing
 - 🔄 RESTful API integration
@@ -27,4 +27,12 @@ A full-stack Java-based banking system built using Spring Boot and Spring Securi
 ---
 
 ## 📁 Project Structure
+12-Bank-Application-System/ 
+├── src/
+│ ├── main/
+│ │ ├── java/in/vishal/bankingapp/...
+│ │ └── resources/
+│ │ └── application.yml
+├── pom.xml 
+└── README.md
 
