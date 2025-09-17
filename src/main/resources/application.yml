@@ -1,0 +1,22 @@
+# Conversion to YAML from Properties formar report
+# Warnings:
+# - The yaml file had comments which are lost in the refactoring!
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1522:xe
+    username: C##VISHAL
+    password: VISHAL
+    driver-class-name: oracle.jdbc.OracleDriver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.Oracle12cDialect
+app:
+  jwt:
+    secret: ReplaceThisWithASecretKey12345
+    expiration-ms: 86400000
+server:
+  port: 8082
